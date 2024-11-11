@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ArrayExecercise/1.0.0": {
+        "runtime": {
+          "ArrayExecercise.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ArrayExecercise/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

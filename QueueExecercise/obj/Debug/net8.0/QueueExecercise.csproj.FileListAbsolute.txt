@@ -1,0 +1,14 @@
+C:\Users\Lankiman\Desktop\PRO\cs\DSALearning\QueueExecercise\bin\Debug\net8.0\QueueExecercise.exe
+C:\Users\Lankiman\Desktop\PRO\cs\DSALearning\QueueExecercise\bin\Debug\net8.0\QueueExecercise.deps.json
+C:\Users\Lankiman\Desktop\PRO\cs\DSALearning\QueueExecercise\bin\Debug\net8.0\QueueExecercise.runtimeconfig.json
+C:\Users\Lankiman\Desktop\PRO\cs\DSALearning\QueueExecercise\bin\Debug\net8.0\QueueExecercise.dll
+C:\Users\Lankiman\Desktop\PRO\cs\DSALearning\QueueExecercise\bin\Debug\net8.0\QueueExecercise.pdb
+C:\Users\Lankiman\Desktop\PRO\cs\DSALearning\QueueExecercise\obj\Debug\net8.0\QueueExecercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lankiman\Desktop\PRO\cs\DSALearning\QueueExecercise\obj\Debug\net8.0\QueueExecercise.AssemblyInfoInputs.cache
+C:\Users\Lankiman\Desktop\PRO\cs\DSALearning\QueueExecercise\obj\Debug\net8.0\QueueExecercise.AssemblyInfo.cs
+C:\Users\Lankiman\Desktop\PRO\cs\DSALearning\QueueExecercise\obj\Debug\net8.0\QueueExecercise.csproj.CoreCompileInputs.cache
+C:\Users\Lankiman\Desktop\PRO\cs\DSALearning\QueueExecercise\obj\Debug\net8.0\QueueExecercise.dll
+C:\Users\Lankiman\Desktop\PRO\cs\DSALearning\QueueExecercise\obj\Debug\net8.0\refint\QueueExecercise.dll
+C:\Users\Lankiman\Desktop\PRO\cs\DSALearning\QueueExecercise\obj\Debug\net8.0\QueueExecercise.pdb
+C:\Users\Lankiman\Desktop\PRO\cs\DSALearning\QueueExecercise\obj\Debug\net8.0\QueueExecercise.genruntimeconfig.cache
+C:\Users\Lankiman\Desktop\PRO\cs\DSALearning\QueueExecercise\obj\Debug\net8.0\ref\QueueExecercise.dll
