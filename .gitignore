@@ -5,6 +5,9 @@ obj/
 # VS Code settings
 .vscode/
 
+# Visual Studo SEtting
+.vs/
+
 # User-specific files
 *.user
 *.suo

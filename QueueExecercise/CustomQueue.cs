@@ -11,7 +11,7 @@
 
         public CustomQueue()
         {
-            _array = Array.Empty<T>()
+            _array = Array.Empty<T>();
             _maxCapacity = 5;
         }
 
