@@ -6,6 +6,7 @@ internal class Program
     {
         var items = new CustomStackQueue<int>();
 
+        var itemss = new PriorityQueue<int, int>();
 
         var item = items.Dequeue();
 
