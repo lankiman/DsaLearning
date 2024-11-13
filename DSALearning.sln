@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackExercise", "StackExerc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueExecercise", "QueueExecercise\QueueExecercise.csproj", "{BF4E70C4-B099-46D6-BC5A-9BF2EA3DF9CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashtablesExercise", "HashtablesExercise\HashtablesExercise.csproj", "{BCD68B33-54C8-41FB-BD71-7F6AFA2B89C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{BF4E70C4-B099-46D6-BC5A-9BF2EA3DF9CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF4E70C4-B099-46D6-BC5A-9BF2EA3DF9CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF4E70C4-B099-46D6-BC5A-9BF2EA3DF9CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCD68B33-54C8-41FB-BD71-7F6AFA2B89C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCD68B33-54C8-41FB-BD71-7F6AFA2B89C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCD68B33-54C8-41FB-BD71-7F6AFA2B89C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCD68B33-54C8-41FB-BD71-7F6AFA2B89C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
