@@ -132,90 +132,78 @@
         var resultJoin = $"Result Index: [{string.Join(" ", result.Select(r => r))}]";
         Console.WriteLine(resultJoin);
 
+        //int LengthOfLongestSubstring(string s)
+        //{
+        //    int length = 0;
+        //    int index = 0;
+        //    var strings = new Dictionary<char, int>();
+        //    var lists = new List<int>();
+
+        //    for (int i = 0; i < s.Length; i++)
+        //    {
+        //        strings.Add(s[i], index++);
+        //        length = 1;
+        //        for (int k = i + 1; k < s.Length; k++)
+        //        {       
+        //            if (strings.ContainsKey(s[k]))
+        //            {
+        //                strings.Clear();
+        //                lists.Add(length);
+        //                break;
+        //            }
+        //            else
+        //            {
+        //                strings.Add(s[k], index++);
+        //                length += 1;
+        //            }
+        //            if (s.Length - k == 1)
+        //            {
+        //                lists.Add(length);
+        //            }
+        //        }
+        //        strings.Clear();
+        //    }
+        //    int max = 0;
+        //    if (lists.Count > 0)
+        //    {
+        //        max = lists[0];
+        //    }
+
+        //    foreach (int item in lists)
+        //    {
+        //        if (item > max)
+        //        {
+        //            max = item;
+        //        }
+        //    }
+        //    return lists.Count > 0 ? max : length;
+        //}
+
+
         int LengthOfLongestSubstring(string s)
         {
+            var map = new Dictionary<char, int>();
+            int maxLength = 0;
+            int start = 0;
 
-            int length = 0;
-            int index = 0;
-            var strings = new Dictionary<char, int>();
-            var lists = new List<int>();
-            // loop throug the string
-            for (int i = 0; i < s.Length; i++)
+            for (var i = 0; i < s.Length; i++)
             {
-                var test = s[i];
-
-                strings.Add(s[i], index++);
-                length = 1;
-                int count = 0;
-
-                for (int k = i + 1; k < s.Length; k++)
+                if (map.ContainsKey(s[i]) && map[s[i]] >= start)
                 {
-                    count = count + 1;
-                    var testk = s[k];
-                    if (strings.ContainsKey(s[k]))
-                    {
-                        strings.Clear();
-                        lists.Add(length);
-                        break;
-                    }
-                    else
-                    {
-                        strings.Add(s[k], index++);
-                        length += 1;
-                    }
-                    if (s.Length - k == 1)
-                    {
-                        lists.Add(length);
-                    }
+                    start = map[s[i]] + 1;
                 }
-                strings.Clear();
+
+                map[s[i]] = i;
+
+                maxLength = Math.Max(maxLength, i - start + 1);
             }
 
-
-            int max = 0;
-            if (lists.Count > 0)
-            {
-                max = lists[0];
-            }
-
-            foreach (int item in lists)
-            {
-                //Console.WriteLine($"item:{item}, max:{max}");
-                if (item > max)
-                {
-                    max = item;
-
-                }
-            }
-            return lists.Count > 0 ? max : length;
+            return maxLength;
         }
+        var maxnumber = LengthOfLongestSubstring("dvdf");
+        Console.WriteLine(maxnumber);
 
-        var lenghtResult = LengthOfLongestSubstring("pkwtt");
-        Console.WriteLine($"length result {lenghtResult}");
     }
 
-    // takes in the key and value in a normal order;
-    public class TwoSumDictionary<Tkey, Tvalue>
-    {
-        //takes the values as the key and the key as a hash set in the array
-        private Dictionary<Tvalue, HashSet<Tkey>> _dictionary;
 
-        //takes the array in a normal order
-        private Dictionary<Tkey, Tvalue> _idexes;
-
-        public void Add(Tkey key, Tvalue value)
-        {
-            if (_dictionary.ContainsKey(value))
-            {
-                _dictionary[value].Add(key);
-            }
-            else
-            {
-                _dictionary[value] = [key];
-            }
-            _idexes.Add(key, value);
-        }
-
-
-    }
 }
