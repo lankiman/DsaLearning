@@ -23,6 +23,11 @@ internal class Program
         //Console.WriteLine($"Dictionary: {{{string.Join(", ", result.Select(kv => $"{kv}"))}}}");
         //Console.WriteLine(result.Count);
 
+        int number = 1;
+        var test = number.ToString();
+        Console.WriteLine(test);
+        Console.WriteLine(test[0]);
+
         int StrStr(string haystack, string needle)
         {
             StringBuilder checker = new StringBuilder();
@@ -73,5 +78,11 @@ internal class Program
 
         var resulter = StrStr("aaa", "aaaa");
         Console.WriteLine(resulter);
+
+
+        string LongestCommonPrefix(string[] strs)
+        {
+
+        }
     }
 }
